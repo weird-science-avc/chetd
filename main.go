@@ -17,8 +17,8 @@ import (
 var (
 	// "/dev/cu.usbserial-A5027JS7"
 	port        = flag.String("port", "", "device port to connect to")
-	steeringPin = flag.Int("steering-pin", 5, "pin steering control is connected to")
-	speedPin    = flag.Int("speed-pin", 6, "pin speed control is connected to")
+	steeringPin = flag.Int("steering-pin", 10, "pin steering control is connected to")
+	speedPin    = flag.Int("speed-pin", 11, "pin speed control is connected to")
 )
 
 // TODO: Graceful shutdown
